@@ -1,0 +1,138 @@
+[23-Apr-2023 20:49:01 UTC] PHP Parse error:  syntax error, unexpected token ",", expecting ")" in C:\Users\Viraj\Local Sites\viraj-patel\app\public\wp-content\themes\twentytwentytwo_child\functions.php on line 4
+[23-Apr-2023 20:49:01 UTC] PHP Parse error:  syntax error, unexpected token ",", expecting ")" in C:\Users\Viraj\Local Sites\viraj-patel\app\public\wp-content\themes\twentytwentytwo_child\functions.php on line 4
+[23-Apr-2023 20:49:01 UTC] PHP Warning:  Trying to access array offset on value of type bool in C:\Users\Viraj\Local Sites\viraj-patel\app\public\wp-includes\class-wp-recovery-mode-email-service.php on line 367
+[23-Apr-2023 20:49:01 UTC] PHP Warning:  Trying to access array offset on value of type bool in C:\Users\Viraj\Local Sites\viraj-patel\app\public\wp-includes\class-wp-recovery-mode-email-service.php on line 368
+[23-Apr-2023 20:49:01 UTC] PHP Parse error:  syntax error, unexpected token ",", expecting ")" in C:\Users\Viraj\Local Sites\viraj-patel\app\public\wp-content\themes\twentytwentytwo_child\functions.php on line 4
+[23-Apr-2023 20:49:01 UTC] PHP Parse error:  syntax error, unexpected token ",", expecting ")" in C:\Users\Viraj\Local Sites\viraj-patel\app\public\wp-content\themes\twentytwentytwo_child\functions.php on line 4
+[23-Apr-2023 20:49:03 UTC] PHP Parse error:  syntax error, unexpected token ",", expecting ")" in C:\Users\Viraj\Local Sites\viraj-patel\app\public\wp-content\themes\twentytwentytwo_child\functions.php on line 4
+[23-Apr-2023 20:49:03 UTC] PHP Parse error:  syntax error, unexpected token ",", expecting ")" in C:\Users\Viraj\Local Sites\viraj-patel\app\public\wp-content\themes\twentytwentytwo_child\functions.php on line 4
+[23-Apr-2023 20:49:05 UTC] PHP Parse error:  syntax error, unexpected token ",", expecting ")" in C:\Users\Viraj\Local Sites\viraj-patel\app\public\wp-content\themes\twentytwentytwo_child\functions.php on line 4
+[23-Apr-2023 20:49:05 UTC] PHP Parse error:  syntax error, unexpected token ",", expecting ")" in C:\Users\Viraj\Local Sites\viraj-patel\app\public\wp-content\themes\twentytwentytwo_child\functions.php on line 4
+[23-Apr-2023 21:21:59 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_template_uri() in C:\Users\Viraj\Local Sites\viraj-patel\app\public\wp-content\themes\twentytwentytwo_child\functions.php:4
+Stack trace:
+#0 C:\Users\Viraj\Local Sites\viraj-patel\app\public\wp-includes\class-wp-hook.php(308): twentytwentytwo_styles('')
+#1 C:\Users\Viraj\Local Sites\viraj-patel\app\public\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#2 C:\Users\Viraj\Local Sites\viraj-patel\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#3 C:\Users\Viraj\Local Sites\viraj-patel\app\public\wp-includes\script-loader.php(2194): do_action('wp_enqueue_scri...')
+#4 C:\Users\Viraj\Local Sites\viraj-patel\app\public\wp-includes\class-wp-hook.php(308): wp_enqueue_scripts('')
+#5 C:\Users\Viraj\Local Sites\viraj-patel\app\public\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#6 C:\Users\Viraj\Local Sites\viraj-patel\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#7 C:\Users\Viraj\Local Sites\viraj-patel\app\public\wp-includes\general-template.php(3049): do_action('wp_head')
+#8 C:\Users\Viraj\Local Sites\viraj-patel\app\public\wp-includes\template-canvas.php(17): wp_head()
+#9 C:\Users\Viraj\Local Sites\viraj-patel\app\public\wp-includes\template-loader.php(106): include('C:\\Users\\Viraj\\...')
+#10 C:\Users\Viraj\Local Sites\viraj-patel\app\public\wp-blog-header.php(19): require_once('C:\\Users\\Viraj\\...')
+#11 C:\Users\Viraj\Local Sites\viraj-patel\app\public\index.php(17): require('C:\\Users\\Viraj\\...')
+#12 {main}
+  thrown in C:\Users\Viraj\Local Sites\viraj-patel\app\public\wp-content\themes\twentytwentytwo_child\functions.php on line 4
+[23-Apr-2023 21:22:04 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_template_uri() in C:\Users\Viraj\Local Sites\viraj-patel\app\public\wp-content\themes\twentytwentytwo_child\functions.php:4
+Stack trace:
+#0 C:\Users\Viraj\Local Sites\viraj-patel\app\public\wp-includes\class-wp-hook.php(308): twentytwentytwo_styles('')
+#1 C:\Users\Viraj\Local Sites\viraj-patel\app\public\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#2 C:\Users\Viraj\Local Sites\viraj-patel\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#3 C:\Users\Viraj\Local Sites\viraj-patel\app\public\wp-includes\script-loader.php(2194): do_action('wp_enqueue_scri...')
+#4 C:\Users\Viraj\Local Sites\viraj-patel\app\public\wp-includes\class-wp-hook.php(308): wp_enqueue_scripts('')
+#5 C:\Users\Viraj\Local Sites\viraj-patel\app\public\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#6 C:\Users\Viraj\Local Sites\viraj-patel\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#7 C:\Users\Viraj\Local Sites\viraj-patel\app\public\wp-includes\general-template.php(3049): do_action('wp_head')
+#8 C:\Users\Viraj\Local Sites\viraj-patel\app\public\wp-includes\template-canvas.php(17): wp_head()
+#9 C:\Users\Viraj\Local Sites\viraj-patel\app\public\wp-includes\template-loader.php(106): include('C:\\Users\\Viraj\\...')
+#10 C:\Users\Viraj\Local Sites\viraj-patel\app\public\wp-blog-header.php(19): require_once('C:\\Users\\Viraj\\...')
+#11 C:\Users\Viraj\Local Sites\viraj-patel\app\public\index.php(17): require('C:\\Users\\Viraj\\...')
+#12 {main}
+  thrown in C:\Users\Viraj\Local Sites\viraj-patel\app\public\wp-content\themes\twentytwentytwo_child\functions.php on line 4
+[23-Apr-2023 21:22:17 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_template_uri() in C:\Users\Viraj\Local Sites\viraj-patel\app\public\wp-content\themes\twentytwentytwo_child\functions.php:4
+Stack trace:
+#0 C:\Users\Viraj\Local Sites\viraj-patel\app\public\wp-includes\class-wp-hook.php(308): twentytwentytwo_styles('')
+#1 C:\Users\Viraj\Local Sites\viraj-patel\app\public\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#2 C:\Users\Viraj\Local Sites\viraj-patel\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#3 C:\Users\Viraj\Local Sites\viraj-patel\app\public\wp-includes\script-loader.php(2194): do_action('wp_enqueue_scri...')
+#4 C:\Users\Viraj\Local Sites\viraj-patel\app\public\wp-includes\class-wp-hook.php(308): wp_enqueue_scripts('')
+#5 C:\Users\Viraj\Local Sites\viraj-patel\app\public\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#6 C:\Users\Viraj\Local Sites\viraj-patel\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#7 C:\Users\Viraj\Local Sites\viraj-patel\app\public\wp-includes\general-template.php(3049): do_action('wp_head')
+#8 C:\Users\Viraj\Local Sites\viraj-patel\app\public\wp-includes\template-canvas.php(17): wp_head()
+#9 C:\Users\Viraj\Local Sites\viraj-patel\app\public\wp-includes\template-loader.php(106): include('C:\\Users\\Viraj\\...')
+#10 C:\Users\Viraj\Local Sites\viraj-patel\app\public\wp-blog-header.php(19): require_once('C:\\Users\\Viraj\\...')
+#11 C:\Users\Viraj\Local Sites\viraj-patel\app\public\index.php(17): require('C:\\Users\\Viraj\\...')
+#12 {main}
+  thrown in C:\Users\Viraj\Local Sites\viraj-patel\app\public\wp-content\themes\twentytwentytwo_child\functions.php on line 4
+[23-Apr-2023 21:22:19 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_template_uri() in C:\Users\Viraj\Local Sites\viraj-patel\app\public\wp-content\themes\twentytwentytwo_child\functions.php:4
+Stack trace:
+#0 C:\Users\Viraj\Local Sites\viraj-patel\app\public\wp-includes\class-wp-hook.php(308): twentytwentytwo_styles('')
+#1 C:\Users\Viraj\Local Sites\viraj-patel\app\public\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#2 C:\Users\Viraj\Local Sites\viraj-patel\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#3 C:\Users\Viraj\Local Sites\viraj-patel\app\public\wp-includes\script-loader.php(2194): do_action('wp_enqueue_scri...')
+#4 C:\Users\Viraj\Local Sites\viraj-patel\app\public\wp-includes\class-wp-hook.php(308): wp_enqueue_scripts('')
+#5 C:\Users\Viraj\Local Sites\viraj-patel\app\public\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#6 C:\Users\Viraj\Local Sites\viraj-patel\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#7 C:\Users\Viraj\Local Sites\viraj-patel\app\public\wp-includes\general-template.php(3049): do_action('wp_head')
+#8 C:\Users\Viraj\Local Sites\viraj-patel\app\public\wp-includes\template-canvas.php(17): wp_head()
+#9 C:\Users\Viraj\Local Sites\viraj-patel\app\public\wp-includes\template-loader.php(106): include('C:\\Users\\Viraj\\...')
+#10 C:\Users\Viraj\Local Sites\viraj-patel\app\public\wp-blog-header.php(19): require_once('C:\\Users\\Viraj\\...')
+#11 C:\Users\Viraj\Local Sites\viraj-patel\app\public\index.php(17): require('C:\\Users\\Viraj\\...')
+#12 {main}
+  thrown in C:\Users\Viraj\Local Sites\viraj-patel\app\public\wp-content\themes\twentytwentytwo_child\functions.php on line 4
+[23-Apr-2023 21:22:21 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_template_uri() in C:\Users\Viraj\Local Sites\viraj-patel\app\public\wp-content\themes\twentytwentytwo_child\functions.php:4
+Stack trace:
+#0 C:\Users\Viraj\Local Sites\viraj-patel\app\public\wp-includes\class-wp-hook.php(308): twentytwentytwo_styles('')
+#1 C:\Users\Viraj\Local Sites\viraj-patel\app\public\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#2 C:\Users\Viraj\Local Sites\viraj-patel\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#3 C:\Users\Viraj\Local Sites\viraj-patel\app\public\wp-includes\script-loader.php(2194): do_action('wp_enqueue_scri...')
+#4 C:\Users\Viraj\Local Sites\viraj-patel\app\public\wp-includes\class-wp-hook.php(308): wp_enqueue_scripts('')
+#5 C:\Users\Viraj\Local Sites\viraj-patel\app\public\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#6 C:\Users\Viraj\Local Sites\viraj-patel\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#7 C:\Users\Viraj\Local Sites\viraj-patel\app\public\wp-includes\general-template.php(3049): do_action('wp_head')
+#8 C:\Users\Viraj\Local Sites\viraj-patel\app\public\wp-includes\template-canvas.php(17): wp_head()
+#9 C:\Users\Viraj\Local Sites\viraj-patel\app\public\wp-includes\template-loader.php(106): include('C:\\Users\\Viraj\\...')
+#10 C:\Users\Viraj\Local Sites\viraj-patel\app\public\wp-blog-header.php(19): require_once('C:\\Users\\Viraj\\...')
+#11 C:\Users\Viraj\Local Sites\viraj-patel\app\public\index.php(17): require('C:\\Users\\Viraj\\...')
+#12 {main}
+  thrown in C:\Users\Viraj\Local Sites\viraj-patel\app\public\wp-content\themes\twentytwentytwo_child\functions.php on line 4
+[23-Apr-2023 21:22:22 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_template_uri() in C:\Users\Viraj\Local Sites\viraj-patel\app\public\wp-content\themes\twentytwentytwo_child\functions.php:4
+Stack trace:
+#0 C:\Users\Viraj\Local Sites\viraj-patel\app\public\wp-includes\class-wp-hook.php(308): twentytwentytwo_styles('')
+#1 C:\Users\Viraj\Local Sites\viraj-patel\app\public\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#2 C:\Users\Viraj\Local Sites\viraj-patel\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#3 C:\Users\Viraj\Local Sites\viraj-patel\app\public\wp-includes\script-loader.php(2194): do_action('wp_enqueue_scri...')
+#4 C:\Users\Viraj\Local Sites\viraj-patel\app\public\wp-includes\class-wp-hook.php(308): wp_enqueue_scripts('')
+#5 C:\Users\Viraj\Local Sites\viraj-patel\app\public\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#6 C:\Users\Viraj\Local Sites\viraj-patel\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#7 C:\Users\Viraj\Local Sites\viraj-patel\app\public\wp-includes\general-template.php(3049): do_action('wp_head')
+#8 C:\Users\Viraj\Local Sites\viraj-patel\app\public\wp-includes\template-canvas.php(17): wp_head()
+#9 C:\Users\Viraj\Local Sites\viraj-patel\app\public\wp-includes\template-loader.php(106): include('C:\\Users\\Viraj\\...')
+#10 C:\Users\Viraj\Local Sites\viraj-patel\app\public\wp-blog-header.php(19): require_once('C:\\Users\\Viraj\\...')
+#11 C:\Users\Viraj\Local Sites\viraj-patel\app\public\index.php(17): require('C:\\Users\\Viraj\\...')
+#12 {main}
+  thrown in C:\Users\Viraj\Local Sites\viraj-patel\app\public\wp-content\themes\twentytwentytwo_child\functions.php on line 4
+[23-Apr-2023 21:22:27 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_template_uri() in C:\Users\Viraj\Local Sites\viraj-patel\app\public\wp-content\themes\twentytwentytwo_child\functions.php:4
+Stack trace:
+#0 C:\Users\Viraj\Local Sites\viraj-patel\app\public\wp-includes\class-wp-hook.php(308): twentytwentytwo_styles('')
+#1 C:\Users\Viraj\Local Sites\viraj-patel\app\public\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#2 C:\Users\Viraj\Local Sites\viraj-patel\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#3 C:\Users\Viraj\Local Sites\viraj-patel\app\public\wp-includes\script-loader.php(2194): do_action('wp_enqueue_scri...')
+#4 C:\Users\Viraj\Local Sites\viraj-patel\app\public\wp-includes\class-wp-hook.php(308): wp_enqueue_scripts('')
+#5 C:\Users\Viraj\Local Sites\viraj-patel\app\public\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#6 C:\Users\Viraj\Local Sites\viraj-patel\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#7 C:\Users\Viraj\Local Sites\viraj-patel\app\public\wp-includes\general-template.php(3049): do_action('wp_head')
+#8 C:\Users\Viraj\Local Sites\viraj-patel\app\public\wp-includes\template-canvas.php(17): wp_head()
+#9 C:\Users\Viraj\Local Sites\viraj-patel\app\public\wp-includes\template-loader.php(106): include('C:\\Users\\Viraj\\...')
+#10 C:\Users\Viraj\Local Sites\viraj-patel\app\public\wp-blog-header.php(19): require_once('C:\\Users\\Viraj\\...')
+#11 C:\Users\Viraj\Local Sites\viraj-patel\app\public\index.php(17): require('C:\\Users\\Viraj\\...')
+#12 {main}
+  thrown in C:\Users\Viraj\Local Sites\viraj-patel\app\public\wp-content\themes\twentytwentytwo_child\functions.php on line 4
+[23-Apr-2023 21:22:32 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_template_uri() in C:\Users\Viraj\Local Sites\viraj-patel\app\public\wp-content\themes\twentytwentytwo_child\functions.php:4
+Stack trace:
+#0 C:\Users\Viraj\Local Sites\viraj-patel\app\public\wp-includes\class-wp-hook.php(308): twentytwentytwo_styles('')
+#1 C:\Users\Viraj\Local Sites\viraj-patel\app\public\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#2 C:\Users\Viraj\Local Sites\viraj-patel\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#3 C:\Users\Viraj\Local Sites\viraj-patel\app\public\wp-includes\script-loader.php(2194): do_action('wp_enqueue_scri...')
+#4 C:\Users\Viraj\Local Sites\viraj-patel\app\public\wp-includes\class-wp-hook.php(308): wp_enqueue_scripts('')
+#5 C:\Users\Viraj\Local Sites\viraj-patel\app\public\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#6 C:\Users\Viraj\Local Sites\viraj-patel\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#7 C:\Users\Viraj\Local Sites\viraj-patel\app\public\wp-includes\general-template.php(3049): do_action('wp_head')
+#8 C:\Users\Viraj\Local Sites\viraj-patel\app\public\wp-includes\template-canvas.php(17): wp_head()
+#9 C:\Users\Viraj\Local Sites\viraj-patel\app\public\wp-includes\template-loader.php(106): include('C:\\Users\\Viraj\\...')
+#10 C:\Users\Viraj\Local Sites\viraj-patel\app\public\wp-blog-header.php(19): require_once('C:\\Users\\Viraj\\...')
+#11 C:\Users\Viraj\Local Sites\viraj-patel\app\public\index.php(17): require('C:\\Users\\Viraj\\...')
+#12 {main}
+  thrown in C:\Users\Viraj\Local Sites\viraj-patel\app\public\wp-content\themes\twentytwentytwo_child\functions.php on line 4
